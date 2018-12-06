@@ -1,0 +1,56 @@
+#crystals {
+    align-items: flex-start;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.crystalsCollector {
+    background-color: #cb6f32;
+    color:#fff;
+    font-family: 'Inika', serif;
+    font-weight: bold;
+    margin: 2%;
+    margin-left:-1%;
+    padding: 20px;
+    width: 40%;
+}
+
+#points {
+    background-color:#53c987;
+    font-family:'Inika', serif;
+    font-size:1.6em;
+}
+
+.row--instructions {
+    background-color: #fbe6cf;
+    color: #80a474;
+    font-family: 'Inika', serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 5%;
+    width: 55%
+}
+
+#scoreMark {
+    background-color: #1ea397;
+    color: #fff;
+    font-family: 'Inika', serif;
+    font-size:1.6em;
+}
+
+.totalScore {
+    background-color: #1ea397;
+    color: #fff;
+    font-family: 'Inika', serif;
+    margin-left: -5%;
+    padding:8px;
+    width:110%;
+}
+
+.winLose {
+    background-color:#3bfdfd;
+    font-family: 'Inika', serif;
+    height: 12em;
+    padding-top: 20%;
+    text-align: center;
+}
