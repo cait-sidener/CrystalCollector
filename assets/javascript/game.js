@@ -21,11 +21,10 @@
     // This will allow the CSS to take effect.
     imageCrystal.addClass("crystal-image");
 
+    console.log(imageCrystal);
+
 
     // Each imageCrystal will be given a src link to the crystal image
-    imageCrystal.attr("src", "assets/images/blueGem.png");
-    imageCrystal.attr("src", "assets/images/purpleGem.png");
-    imageCrystal.attr("src", "assets/images/redGem.png");
     imageCrystal.attr("src", "assets/images/yellowGem.png");
 
 
