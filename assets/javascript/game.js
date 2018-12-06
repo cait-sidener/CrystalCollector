@@ -1,4 +1,6 @@
-  var targetNumber = 53;
+  var targetNumber = function randomNumber() {
+      return Math.floor((Math.random() * 100) +1);
+  };
 
   $("#number-to-guess").text(targetNumber);
 
@@ -21,7 +23,6 @@
     // This will allow the CSS to take effect.
     imageCrystal.addClass("crystal-image");
 
-    console.log(imageCrystal);
 
 
     // Each imageCrystal will be given a src link to the crystal image
