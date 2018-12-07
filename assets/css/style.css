@@ -38,13 +38,13 @@
     font-size: 2.5em;
 }
 
-.totalScore {
+.totalPoints {
     background-color: #1ea397;
     color: #fff;
     font-family: 'Inika', serif;
-    margin-left: -5%;
+    margin-left: -4%;
     padding:8px;
-    width:110%;
+    width:108%;
 }
 
 .winLose {
