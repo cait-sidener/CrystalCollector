@@ -20,12 +20,13 @@
 .crystalz {
     background-color: #cb6f32;
     color:#fff;
+    display: inline-block;
     font-family: 'Inika', serif;
     font-weight: bold;
-    margin: 2%;
-    margin-left:-1%;
+    /* margin: 2%;
+    margin-left:-1%; */
     padding: 20px;
-    width: 40%;
+    /* width: 40%; */
 }
 
 #points {
