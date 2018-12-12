@@ -19,9 +19,8 @@
 
 
      function reset() {
-         targetNumber = function randomNumber() {
-             return Math.floor((Math.random() * 100) + 1);
-         };
+         targetNumber = Math.floor((Math.random() * 100) + 1);
+         console.log(targetNumber);
          $("#number-to-guess").text(targetNumber);
          num1 = Math.floor(Math.random() * 12 + 1);
          num2 = Math.floor(Math.random() * 12 + 1);
@@ -85,7 +84,7 @@
          userTotal = userTotal + num4;
 
          console.log("New userTotal= " + userTotal);
-         
+
          $("#totalPoints").text(userTotal);
 
          if (userTotal === targetNumber) {
