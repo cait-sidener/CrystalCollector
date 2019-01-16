@@ -20,7 +20,6 @@
 
      function reset() {
          targetNumber = Math.floor((Math.random() * 100) + 1);
-         console.log(targetNumber);
          $("#number-to-guess").text(targetNumber);
          num1 = Math.floor(Math.random() * 12 + 1);
          num2 = Math.floor(Math.random() * 12 + 1);
@@ -52,8 +51,6 @@
 
          $("#totalPoints").text(userTotal, targetNumber);
 
-         console.log('onClick', userTotal, targetNumber);
-
          if (userTotal === targetNumber) {
              winner()
          } else if (userTotal > targetNumber) {
@@ -82,8 +79,6 @@
      });
      $("#crystal4").on("click", function () {
          userTotal = userTotal + num4;
-
-         console.log("New userTotal= " + userTotal);
 
          $("#totalPoints").text(userTotal);
 
